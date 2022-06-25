@@ -1,7 +1,7 @@
 {
     "version": 127,
     "entry_package": "sources_by_eprendre",
-    "download_url": "https://eprendre2.coding.net/p/tingshu/d/tingshu/git/raw/master/TingShuSources/sources_by_eprendre.jar",
+    "download_url": "https://raw.githubusercontents.com/eprendre/tingshu_resources/main/TingShuSources/sources_by_eprendre.jar",
     "update_msg": "\n修复爱书音的搜索",
     "support_url": ""
 }
