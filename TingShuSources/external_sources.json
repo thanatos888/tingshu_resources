@@ -1,7 +1,7 @@
 {
-    "version": 127,
+    "version": 128,
     "entry_package": "sources_by_eprendre",
     "download_url": "https://ghproxy.com/https://raw.githubusercontent.com/eprendre/tingshu_resources/main/TingShuSources/sources_by_eprendre.jar",
-    "update_msg": "\n修复爱书音的搜索",
+    "update_msg": "\n修复一些书源",
     "support_url": ""
 }
