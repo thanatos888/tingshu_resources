@@ -1,7 +1,7 @@
 {
     "version": 128,
     "entry_package": "sources_by_eprendre",
-    "download_url": "https://ghproxy.com/https://raw.githubusercontent.com/eprendre/tingshu_resources/main/TingShuSources/sources_by_eprendre.jar",
+    "download_url": "https://s3-us-east-1.ossfiles.com/tingshu/tingshu_source/128/sources_by_eprendre.jar",
     "update_msg": "\n修复一些书源",
     "support_url": ""
 }
