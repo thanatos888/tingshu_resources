@@ -13,7 +13,7 @@
     "global_show_ads": true,
     "wechat": "gh_52d50133abae",
     "external_sources": [
-        "https://cdn.jsdelivr.net/gh/eprendre/tingshu_resources/TingShuSources/external_sources.json"
+        "https://s3-us-east-1.ossfiles.com/tingshu/tingshu_source/external_sources.json"
     ],
     "map": [
         {
