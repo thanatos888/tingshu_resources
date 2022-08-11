@@ -1,14 +1,14 @@
 {
-    "versionCode": 145,
-    "versionName": "2.3.1",
-    "msg": "重要提醒！！！由于接口地址修改，老版本将得不到维护，请务必更新。\n\n1. 修改阿里云部分接口，支持wma播放，优化封面加载速度。并不是说app开始支持wma播放，而是调用阿里云网盘的预览接口，此接口自动把wma转成了mp3格式。\n2. 本地书库、百度网盘、WebDAV、局域网、阿里云盘等默认使用文件浏览模式，也就是说不用搭建特定的目录结构即可使用了，大大降低了小白用户的使用门槛。若需要使用以前的加载样式，请去对应的设置页关闭文件浏览模式。\n3. 添加海盗听书，很多人求了很久的书源。新增源需要去源管理的听书源手动开启。注意：此源需要更新最新版客户端才支持。\n4. 其它bug修复",
+    "versionCode": 146,
+    "versionName": "2.3.2",
+    "msg": "1. 修复阿里云盘在部分手机上无法登录的问题\n2. 修复阿里云盘在文件浏览模式下无法播放的问题\n3. 修复22听书不能播放的问题\n4. 其它bug修复，细节优化\n5. 移除两个英文源，我准备专门做一个英文有声书籍的订阅源。",
     "sources": [],
     "support": true,
     "play_upate": false,
     "share_url": "https://pan.lanzoux.com/b873905",
-    "update_url": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.1_145-personal.apk",
-    "update_url_market": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.1_145-market.apk",
-    "update_url_liu": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.1_145-edu_liu.apk",
+    "update_url": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.2_146-personal.apk",
+    "update_url_market": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.2_146-market.apk",
+    "update_url_liu": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.2_146-edu_liu.apk",
     "qunpro": "https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=2cGZ5G&from=246610&biz=ka",
     "global_show_ads": true,
     "wechat": "gh_52d50133abae",
@@ -18,20 +18,7 @@
     "external_sources": [
         "https://s3-us-east-1.ossfiles.com/tingshu/tingshu_source/external_sources.json"
     ],
-    "map": [
-        {
-            "domain": "6yueting",
-            "script": "demaxiya()"
-        },
-        {
-            "domain": "ting22",
-            "script": "playhide()"
-        },
-        {
-            "domain": "5tps",
-            "script": "topFirame();"
-        }
-    ],
+    "map": [],
     "trends": [
         {
             "rate": 24.3,
