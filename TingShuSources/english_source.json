@@ -1,0 +1,7 @@
+{
+    "version": 1,
+    "entry_package": "english",
+    "download_url": "https://s3-us-east-1.ossfiles.com/tingshu/tingshu_source/e1/english.jar",
+    "update_msg": "英文有声书放在一个独立的订阅源里",
+    "support_url": ""
+}

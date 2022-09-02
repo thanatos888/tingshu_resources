@@ -1,7 +1,7 @@
 {
-    "version": 130,
+    "version": 132,
     "entry_package": "sources_by_eprendre",
-    "download_url": "https://s3-us-east-1.ossfiles.com/tingshu/tingshu_source/t130/sources_by_eprendre.jar",
-    "update_msg": "\n屏蔽失效的书源",
+    "download_url": "https://s3-us-east-1.ossfiles.com/tingshu/tingshu_source/jars/sources_by_eprendre.jar",
+    "update_msg": "\n修复哔哩哔哩不能加载的问题",
     "support_url": ""
 }
