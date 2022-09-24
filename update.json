@@ -1,14 +1,14 @@
 {
-    "versionCode": 148,
-    "versionName": "2.3.3",
-    "msg": "已经更新2.3.3的同学若看到更新提示请务必再更新一次，我昨天发布太晚没测试到位，导致勾选的源重启app后会自动取消勾选。另外提醒一下:2.3.0 以前的版本由于接口基本失效，也无法自动维护和更新了。\n\n1. 22的书籍重新禁用刷新章节列表，因经常有人一直点刷新导致触发访问限制。\n2. 修复筛选书源功能的一些 bug\n3. 修复激励视频跳出两次的问题\n4. 修复播放出错时在某些情况不能使用跳转下一集按钮的问题\n5. 优化阿里云盘的封面缓存\n6. 更换开屏背景图片\n7. 优化冷启动速度\n8. 修复海盗听书",
+    "versionCode": 149,
+    "versionName": "2.3.4",
+    "msg": "1. 修复22听书，兄弟们有人搞我，只好被迫更新。\n2. 当前播放章节现在不会因为章节列表的刷新导致位置变回第一章。\n3. 修复章节列表重复加载的问题。\n4. 如果不小心触发了开屏广告，将立即奖励12小时的免广告时间。\n5. 部分源提高请求效率。",
     "sources": [],
     "support": true,
     "play_upate": false,
     "share_url": "https://pan.lanzoux.com/b873905",
-    "update_url": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.3_148-personal-release.apk",
-    "update_url_market": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.3_148-market-release.apk",
-    "update_url_liu": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.3_148-edu_liu-release.apk",
+    "update_url": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.4_149-personal-release.apk",
+    "update_url_market": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.4_149-market-release.apk",
+    "update_url_liu": "https://s3-us-east-1.ossfiles.com/tingshu/apk/tingshu_v2.3.4_149-edu_liu-release.apk",
     "qunpro": "https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=2cGZ5G&from=246610&biz=ka",
     "wechat": "gh_52d50133abae",
     "ad_name": "fugui",
@@ -21,423 +21,423 @@
     "map": [],
     "trends": [
         {
-            "rate": 24.3,
+            "rate": 18.16,
             "name": "22听书网",
-            "value": 843953
+            "value": 607047
         },
         {
-            "rate": 12.36,
-            "name": "酷我畅听",
-            "value": 429492
-        },
-        {
-            "rate": 12.31,
-            "name": "6月听书",
-            "value": 427605
-        },
-        {
-            "rate": 9.52,
+            "rate": 15.41,
             "name": "我听评书网",
-            "value": 330816
+            "value": 515113
         },
         {
-            "rate": 9.12,
+            "rate": 14.45,
+            "name": "酷我畅听",
+            "value": 483080
+        },
+        {
+            "rate": 12.07,
+            "name": "6月听书",
+            "value": 403413
+        },
+        {
+            "rate": 8.69,
             "name": "喜马拉雅",
-            "value": 316692
+            "value": 290556
         },
         {
-            "rate": 5.68,
-            "name": "有兔阅读",
-            "value": 197398
+            "rate": 5.14,
+            "name": "海盗听书",
+            "value": 171781
         },
         {
-            "rate": 5.04,
-            "name": "275听书网",
-            "value": 175006
-        },
-        {
-            "rate": 4.28,
+            "rate": 4.64,
             "name": "听书宝",
-            "value": 148666
+            "value": 155221
         },
         {
-            "rate": 4.01,
-            "name": "恋听网",
-            "value": 139440
-        },
-        {
-            "rate": 3.06,
+            "rate": 3.69,
             "name": "懒人听书",
-            "value": 106234
+            "value": 123448
         },
         {
-            "rate": 2.99,
-            "name": "爱书音",
-            "value": 103919
+            "rate": 3.49,
+            "name": "恋听网",
+            "value": 116547
         },
         {
-            "rate": 1.83,
-            "name": "哔哩哔哩",
-            "value": 63605
-        },
-        {
-            "rate": 1.4,
-            "name": "海洋听书网",
-            "value": 48651
-        },
-        {
-            "rate": 1.02,
-            "name": "74听书",
-            "value": 35513
-        },
-        {
-            "rate": 0.45,
+            "rate": 2.79,
             "name": "456听书网",
-            "value": 15475
+            "value": 93127
         },
         {
-            "rate": 0.38,
-            "name": "百度网盘",
-            "value": 13146
+            "rate": 2.6,
+            "name": "爱书音",
+            "value": 87081
         },
         {
-            "rate": 0.35,
-            "name": "云图有声",
-            "value": 12302
+            "rate": 2.18,
+            "name": "海洋听书网",
+            "value": 72774
         },
         {
-            "rate": 0.33,
+            "rate": 1.78,
+            "name": "哔哩哔哩",
+            "value": 59663
+        },
+        {
+            "rate": 1.29,
+            "name": "74听书",
+            "value": 43186
+        },
+        {
+            "rate": 0.42,
+            "name": "天天评书网",
+            "value": 13877
+        },
+        {
+            "rate": 0.4,
             "name": "中华听书网",
-            "value": 11413
+            "value": 13486
         },
         {
-            "rate": 0.32,
+            "rate": 0.39,
+            "name": "云图有声",
+            "value": 13017
+        },
+        {
+            "rate": 0.39,
+            "name": "有兔阅读",
+            "value": 12889
+        },
+        {
+            "rate": 0.34,
+            "name": "百度网盘",
+            "value": 11289
+        },
+        {
+            "rate": 0.29,
             "name": "本地书库",
-            "value": 11117
+            "value": 9737
         },
         {
-            "rate": 0.25,
+            "rate": 0.26,
+            "name": "芒果听书",
+            "value": 8538
+        },
+        {
+            "rate": 0.21,
             "name": "有声小说吧",
-            "value": 8511
+            "value": 7010
+        },
+        {
+            "rate": 0.19,
+            "name": "阿里云盘",
+            "value": 6393
         },
         {
             "rate": 0.15,
-            "name": "博看有声",
-            "value": 5293
+            "name": "未知",
+            "value": 4854
         },
         {
             "rate": 0.13,
-            "name": "天天评书网",
-            "value": 4544
+            "name": "博看有声",
+            "value": 4431
         },
         {
-            "rate": 0.1,
-            "name": "芒果听书",
-            "value": 3599
-        },
-        {
-            "rate": 0.06,
+            "rate": 0.08,
             "name": "电视直播",
-            "value": 2176
+            "value": 2677
         },
         {
             "rate": 0.06,
             "name": "云听电台",
-            "value": 2045
-        },
-        {
-            "rate": 0.06,
-            "name": "听书汇 by:鸽子",
-            "value": 2009
+            "value": 2079
         },
         {
             "rate": 0.05,
-            "name": "六听网",
-            "value": 1906
+            "name": "275听书网",
+            "value": 1527
         },
         {
             "rate": 0.03,
-            "name": "56听书网",
-            "value": 1138
-        },
-        {
-            "rate": 0.03,
-            "name": "未知",
-            "value": 1131
+            "name": "樱花动漫",
+            "value": 1126
         },
         {
             "rate": 0.03,
             "name": "静听网",
-            "value": 975
+            "value": 899
+        },
+        {
+            "rate": 0.03,
+            "name": "56听书网",
+            "value": 851
+        },
+        {
+            "rate": 0.02,
+            "name": "456听书 by:鸽子",
+            "value": 816
         },
         {
             "rate": 0.02,
             "name": "中版有声书",
-            "value": 666
-        },
-        {
-            "rate": 0.02,
-            "name": "辣鸡",
-            "value": 632
-        },
-        {
-            "rate": 0.02,
-            "name": "樱花动漫",
-            "value": 571
+            "value": 704
         },
         {
             "rate": 0.01,
-            "name": "六月听书",
-            "value": 496
-        },
-        {
-            "rate": 0.01,
-            "name": "小神书 by:鸽子",
-            "value": 451
-        },
-        {
-            "rate": 0.01,
-            "name": "自定义直播",
-            "value": 432
-        },
-        {
-            "rate": 0.01,
-            "name": "易听书 by:鸽子",
-            "value": 409
-        },
-        {
-            "rate": 0.01,
-            "name": "天听网 by:鸽子",
-            "value": 386
+            "name": "听书汇 by:鸽子",
+            "value": 458
         },
         {
             "rate": 0.01,
             "name": "WebDAV",
-            "value": 332
+            "value": 378
         },
         {
             "rate": 0.01,
-            "name": "机核 GCORES",
-            "value": 318
+            "name": "小神书 by:鸽子",
+            "value": 308
         },
         {
             "rate": 0.01,
-            "name": "全民听书 by:鸽子",
-            "value": 317
-        },
-        {
-            "rate": 0.01,
-            "name": "幻听网",
-            "value": 316
-        },
-        {
-            "rate": 0.01,
-            "name": "Local Library",
-            "value": 279
-        },
-        {
-            "rate": 0.01,
-            "name": "心魔听书",
-            "value": 278
+            "name": "易听书 by:鸽子",
+            "value": 300
         },
         {
             "rate": 0.01,
             "name": "芒果听书 by:鸽子",
-            "value": 276
+            "value": 261
         },
         {
             "rate": 0.01,
-            "name": "ASMR清漠",
-            "value": 276
-        },
-        {
-            "rate": 0.01,
-            "name": "本地書庫",
-            "value": 263
-        },
-        {
-            "rate": 0.01,
-            "name": "口袋微课堂",
-            "value": 253
-        },
-        {
-            "rate": 0.01,
-            "name": "局域网共享",
+            "name": "幻听网",
             "value": 243
         },
         {
             "rate": 0.01,
-            "name": "听中国",
-            "value": 224
+            "name": "自定义直播",
+            "value": 238
         },
         {
             "rate": 0.01,
-            "name": "我要听书 by:鸽子",
-            "value": 224
+            "name": "梨花阁 by:鸽子",
+            "value": 205
         },
         {
-            "rate": 0.0,
-            "name": "搜狗阅读",
-            "value": 165
+            "rate": 0.01,
+            "name": "口袋微课堂",
+            "value": 205
+        },
+        {
+            "rate": 0.01,
+            "name": "六月听书",
+            "value": 192
         },
         {
             "rate": 0.0,
             "name": "洛奇Town",
-            "value": 160
-        },
-        {
-            "rate": 0.0,
-            "name": "6听网 by:鸽子",
-            "value": 160
-        },
-        {
-            "rate": 0.0,
-            "name": "ASMRIbuk",
-            "value": 118
-        },
-        {
-            "rate": 0.0,
-            "name": "听神马 by:鸽子",
-            "value": 117
-        },
-        {
-            "rate": 0.0,
-            "name": "456听书 by:鸽子",
-            "value": 92
-        },
-        {
-            "rate": 0.0,
-            "name": "听书屋 by:鸽子",
-            "value": 90
-        },
-        {
-            "rate": 0.0,
-            "name": "猫耳FM",
-            "value": 88
-        },
-        {
-            "rate": 0.0,
-            "name": "有声天下 by:鸽子",
-            "value": 88
-        },
-        {
-            "rate": 0.0,
-            "name": "520听书网v2",
-            "value": 83
-        },
-        {
-            "rate": 0.0,
-            "name": "爱听书",
-            "value": 80
-        },
-        {
-            "rate": 0.0,
-            "name": "牛牛TV",
-            "value": 76
-        },
-        {
-            "rate": 0.0,
-            "name": "听中国海盗听书 by Ryan",
-            "value": 73
-        },
-        {
-            "rate": 0.0,
-            "name": "LAN Sharing",
-            "value": 71
-        },
-        {
-            "rate": 0.0,
-            "name": "AudioMack",
-            "value": 67
-        },
-        {
-            "rate": 0.0,
-            "name": "520听书网",
-            "value": 65
-        },
-        {
-            "rate": 0.0,
-            "name": "麻辣听书",
-            "value": 65
-        },
-        {
-            "rate": 0.0,
-            "name": "小米听书 by:鸽子",
-            "value": 61
-        },
-        {
-            "rate": 0.0,
-            "name": "听书神器",
-            "value": 60
-        },
-        {
-            "rate": 0.0,
-            "name": "一起听书 by:鸽子",
-            "value": 54
-        },
-        {
-            "rate": 0.0,
-            "name": "聚听网",
-            "value": 53
-        },
-        {
-            "rate": 0.0,
-            "name": "ASMR优享",
-            "value": 51
-        },
-        {
-            "rate": 0.0,
-            "name": "梨花阁 by:鸽子",
-            "value": 48
-        },
-        {
-            "rate": 0.0,
-            "name": "LibriVox",
-            "value": 47
+            "value": 155
         },
         {
             "rate": 0.0,
             "name": "Lit2Go",
-            "value": 43
+            "value": 151
+        },
+        {
+            "rate": 0.0,
+            "name": "机核 GCORES",
+            "value": 147
+        },
+        {
+            "rate": 0.0,
+            "name": "LibriVox",
+            "value": 116
+        },
+        {
+            "rate": 0.0,
+            "name": "天听网 by:鸽子",
+            "value": 114
+        },
+        {
+            "rate": 0.0,
+            "name": "全民听书 by:鸽子",
+            "value": 113
+        },
+        {
+            "rate": 0.0,
+            "name": "听中国",
+            "value": 88
+        },
+        {
+            "rate": 0.0,
+            "name": "局域网共享",
+            "value": 82
+        },
+        {
+            "rate": 0.0,
+            "name": "我要听书 by:鸽子",
+            "value": 72
         },
         {
             "rate": 0.0,
             "name": "我爱听评书网",
-            "value": 28
+            "value": 64
         },
         {
             "rate": 0.0,
             "name": "声音巴士",
+            "value": 62
+        },
+        {
+            "rate": 0.0,
+            "name": "猫耳FM",
+            "value": 60
+        },
+        {
+            "rate": 0.0,
+            "name": "心魔听书",
+            "value": 57
+        },
+        {
+            "rate": 0.0,
+            "name": "本地書庫",
+            "value": 54
+        },
+        {
+            "rate": 0.0,
+            "name": "520听书网v2",
+            "value": 49
+        },
+        {
+            "rate": 0.0,
+            "name": "有声天下 by:鸽子",
+            "value": 45
+        },
+        {
+            "rate": 0.0,
+            "name": "ASMR清漠",
+            "value": 42
+        },
+        {
+            "rate": 0.0,
+            "name": "听神马 by:鸽子",
+            "value": 38
+        },
+        {
+            "rate": 0.0,
+            "name": "六听网",
+            "value": 38
+        },
+        {
+            "rate": 0.0,
+            "name": "聚听网",
+            "value": 37
+        },
+        {
+            "rate": 0.0,
+            "name": "Local Library",
+            "value": 35
+        },
+        {
+            "rate": 0.0,
+            "name": "AudioBooks",
+            "value": 32
+        },
+        {
+            "rate": 0.0,
+            "name": "小米听书 by:鸽子",
+            "value": 31
+        },
+        {
+            "rate": 0.0,
+            "name": "520听书网",
+            "value": 28
+        },
+        {
+            "rate": 0.0,
+            "name": "一起听书 by:鸽子",
+            "value": 25
+        },
+        {
+            "rate": 0.0,
+            "name": "搜狗阅读",
+            "value": 25
+        },
+        {
+            "rate": 0.0,
+            "name": "ASMRIbuk",
+            "value": 24
+        },
+        {
+            "rate": 0.0,
+            "name": "爱听书",
             "value": 23
         },
         {
             "rate": 0.0,
-            "name": "凉良FM",
-            "value": 13
+            "name": "麻辣听书",
+            "value": 19
         },
         {
             "rate": 0.0,
-            "name": "九州影视",
-            "value": 13
+            "name": "ASMR优享",
+            "value": 12
+        },
+        {
+            "rate": 0.0,
+            "name": "辣鸡",
+            "value": 11
         },
         {
             "rate": 0.0,
             "name": "酷我听书",
-            "value": 10
+            "value": 8
         },
         {
             "rate": 0.0,
-            "name": "南瓜影视",
-            "value": 9
+            "name": "听书神器",
+            "value": 8
         },
         {
             "rate": 0.0,
-            "name": "心魔听书网",
+            "name": "听书屋 by:鸽子",
+            "value": 6
+        },
+        {
+            "rate": 0.0,
+            "name": "6听网 by:鸽子",
+            "value": 6
+        },
+        {
+            "rate": 0.0,
+            "name": "51听书 by:鸽子",
             "value": 5
         },
         {
             "rate": 0.0,
-            "name": "麒麟听书 by:鸽子",
+            "name": "九州影视",
+            "value": 5
+        },
+        {
+            "rate": 0.0,
+            "name": "AudioMack",
+            "value": 4
+        },
+        {
+            "rate": 0.0,
+            "name": "凉良FM",
+            "value": 2
+        },
+        {
+            "rate": 0.0,
+            "name": "懒人听书(伪)by:鸽子",
+            "value": 2
+        },
+        {
+            "rate": 0.0,
+            "name": "牛牛TV",
             "value": 2
         }
     ]
